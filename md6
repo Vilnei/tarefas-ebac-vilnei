@@ -1,0 +1,12 @@
+tarefa do modulo 6
+criar uma logica de descreva o seu acordar de manha
+
+1 - acordar/iniciar
+2 - abrir os olhos
+3 - pegar o celular
+4 - verificar as horas
+  4.1 - se horas < 7 voltar a dormir e esperar o passo 1 novamente
+  4.2 - se horas entre 7 e 7:30 iniciar função se arrumar p trabalho
+  4.3 - se horas > 8 iniciar programa ATRADASADO
+
+//como estamos aprendendo POO esse é relacionado a função acordar, as outra entao em outras class kkkk
