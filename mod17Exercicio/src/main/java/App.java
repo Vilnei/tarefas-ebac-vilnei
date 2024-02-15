@@ -3,6 +3,9 @@ import clientes.*;
 import fabricas.*;
 import logs.Logs;
 
+import java.util.ArrayList;
+import java.util.List;
+
 
 public class App {
     public static void main(String[] args) {
@@ -10,8 +13,21 @@ public class App {
         Fabrica fabrica = getFabrica(cliente);
         Carro carro = fabrica.criar(cliente.requerimento());
         carro.ligarMotor();
-        //salvaria em um BD quantas vezes foram criados carros e o Objeto carro.
+
+        //adicionando uma lista com todos os tipos de carros para testa a lista generica
+        List<Carro> listaDeCarros = new ArrayList<>();
+        Chevrolet corsa = new Chevrolet(72,"Alcool","Branco");
+        Ford furgao = new Ford(165, "Gasolina", "Cinza");
+        Tesla modelX = new Tesla(180,"Eletricidade", "Vermelho");
+        Toyota corolla = new Toyota(175,"Gasolina", "Prata");
+        listaDeCarros.add(corsa);
+        listaDeCarros.add(furgao);
+        listaDeCarros.add(modelX);
+        listaDeCarros.add(corolla);
+
+
         Logs logs = new Logs(carro);// um primeira ideia de um log so pra testa algumas coisas
+
 
     }
 
