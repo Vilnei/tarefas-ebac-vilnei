@@ -2,7 +2,7 @@ import java.util.List;
 import java.util.Objects;
 
 /**
- * classe para cria algumas pessoas diferentes
+ * classe para criar algumas pessoas diferentes
  * @author Vilnei
  */
 
@@ -85,12 +85,12 @@ public class Pessoa {
 
     @Override
     public String toString() {
-        return "\n" +"Pessoa " + id +
-                " = (nome:'" + nome + '\'' +
-                ", idade:" + idade +
-                ", nacionalidade:'" + nacionalidade + '\'' +
-                ", sexo:'" + sexo + '\'' +
-                ")";
+        return "Pessoa " + id +
+                " = ( Nome:" + nome +
+                ", Idade:" + idade +
+                ", Nacionalidade:" + nacionalidade +
+                ", Sexo:" + sexo +
+                " )";
     }
 
     @Override
