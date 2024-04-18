@@ -3,7 +3,7 @@ import org.junit.jupiter.api.Test;
 
 import java.util.List;
 
-public class MainTeste {
+public class MainTest {
     List<Pessoa> lista = new Pessoa().criarPessoas();
 
     @Test
