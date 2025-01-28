@@ -1,0 +1,100 @@
+Vantagem e desvantagem entre Monolito e Microserviços
+
+Tendo em vista os 5 pilares da engenharia de software, que são:
+Escabilidade;
+Disponibilidade;
+Consistência;
+Performasse;
+Testabilidade.
+E tendo em vista as duas arquiteturas de software, Monolito e Microserviços, eu listei 2 vantagem e 2 desvantagem de cada uma dessas arquiteturas para cada um dos 5 pilares.
+
+1. Escabilidade
+
+	Monolito
+
+Vantagem: Escalabilidade Vertical: É mais fácil escalar verticalmente, aumentando os recursos do servidor.
+Vantagem: Menor Complexidade: A gestão da escalabilidade é mais simples, pois tudo está em uma única aplicação.
+
+Desvantagem: Limitação: Uma única parte do sistema pode se tornar um gargalo.
+Desvantagem: Dificuldade em Escalar: Se a aplicação crescer muito, pode ser difícil escalar sem reescrever partes significativas.
+
+	Microserviços
+
+Vantagem: Escalabilidade Horizontal: Permite escalar serviços individualmente conforme a demanda.
+Vantagem: Flexibilidade: Você pode escolher diferentes tecnologias para diferentes serviços, otimizando o desempenho.
+
+Desvantagem: Complexidade: A gestão de múltiplos serviços aumenta a complexidade do sistema.
+Desvantagem: Overhead de Comunicação: O aumento do tráfego de rede pode afetar o desempenho.
+
+2. Disponibilidade
+
+	Monolito
+
+Vantagem: Simplicidade: A aplicação está em um único lugar, facilitando a manutenção.
+Vantagem: Menos Dependências: Menos serviços significam menos pontos de falha.
+
+Desvantagem: Ponto Único de Falha: Se o monolito falhar, toda a aplicação fica indisponível.
+Desvantagem: Tempo de Inatividade: Atualizações podem causar períodos de inatividade.
+
+	Microserviços
+
+Vantagem: Resiliência: Se um serviço falhar, os outros podem continuar funcionando.
+Vantagem: Atualizações Independentes: Serviços podem ser atualizados sem afetar o sistema inteiro.
+
+Desvantagem: Gerenciamento de Serviços: Aumenta a complexidade do gerenciamento e monitoramento dos serviços.
+Desvantagem: Dependências: A interdependência entre serviços pode causar problemas de disponibilidade.
+
+3. Consistência
+
+	Monolito
+
+Vantagem: Consistência de Dados: Dados são gerenciados em um único local, facilitando a consistência.
+Vantagem: Transações Simples: Transações são mais fáceis de implementar e gerenciar.
+
+Desvantagem: Desafios em Grandes Sistemas: À medida que a aplicação cresce, manter a consistência pode ser difícil.
+Desvantagem: Acoplamento: O acoplamento entre módulos pode dificultar a manutenção da consistência.
+
+	Microserviços
+
+Vantagem: Independência: Cada serviço pode gerenciar seus próprios dados, permitindo flexibilidade.
+Vantagem: Modelos de Consistência: Permite aplicar diferentes estratégias de consistência conforme necessário.
+
+Desvantagem: Desafios de Consistência: Garantir a consistência entre serviços pode ser complexo.
+Desvantagem: Transações Distribuídas: Implementar transações distribuídas é um desafio e pode ser difícil de gerenciar.
+
+4. Performasse
+
+	Monolito
+
+Vantagem: Desempenho Rápido: A comunicação interna é mais rápida do que chamadas de rede entre serviços.
+Vantagem: Menos Latência: Menos sobrecarga devido à simplicidade da estrutura.
+
+Desvantagem: Gargalos: Um componente lento pode afetar toda a aplicação.
+Desvantagem: Dificuldade em Otimizações: Melhorias de desempenho podem exigir reescritas significativas.
+
+	Microserviços
+
+Vantagem: Otimize Individualmente: Cada serviço pode ser otimizado separadamente.
+Vantagem: Paralelismo: Serviços independentes podem ser executados em paralelo, melhorando o desempenho geral.
+
+Desvantagem: Latência: Chamadas de rede entre serviços podem aumentar a latência. 
+Desvantagem:  Overhead de Comunicação: O overhead de comunicação pode impactar o desempenho.
+
+5. Testabilidade
+
+	Monolito
+
+Vantagem: Testes Simples: Menos componentes para testar, facilitando a execução de testes.
+Vantagem: Ambiente Único: Testes podem ser realizados em um único ambiente.
+
+Desvantagem: Testes Complexos: A complexidade aumenta conforme a aplicação cresce.
+Desvantagem: Dificuldade em Isolar Problemas: Testes podem ser menos eficazes na identificação de problemas específicos.
+
+	Microserviços
+
+Vantagem: Testes Independentes: Cada serviço pode ser testado isoladamente, facilitando a identificação de problemas.
+Vantagem: Automação de Testes: Facilita a implementação de testes automatizados.
+
+Desvantagem: Testes de Integração: Testes de integração entre serviços podem ser complexos.
+Desvantagem: Ambientes Múltiplos: Necessidade de múltiplos ambientes de teste pode complicar a configuração.
+
