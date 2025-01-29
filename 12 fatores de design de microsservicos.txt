@@ -1,0 +1,27 @@
+escolha 3 dos 12 fatores de design de microsserviços, e explique os com suas palavras porque eles são importantes para uma arquitetura de microsserviços.
+os 12 fatores são:
+Código Base, Dependências, Configuração, Serviços de Apoio, Build  Release e Run, Processos, Portabilidade, Concorrência, Descarte, Logs, Administração e Segurança.
+
+1. Código Base, é um único código que pode ser versionado e gerenciado usando sistemas de controle de versão.
+ 
+2. Dependências, as dependências devem ser declaradas e gerenciadas de forma explicita, utilizando ferramentas adequadas para instalação e atualizadas
+ 
+3. Configuração, As configurações devem ser armazenadas em variáveis de ambiente, permitindo que o código seja executado em diferentes ambientes sem modificações.
+ 
+4. Serviços de Apoio, O aplicativo deve ser capaz de se conectar a esses serviços de forma dinâmica, sem ter uma referencia direta a esses serviços, fazendo com que qualquer sistema de apoio possa ser trocado sem ter que refatorar o código.
+
+5. Construir, lançar e executar; eles devem ser separados, isso garante que a contrução do aplicativo, sua liberação e a execução sejam etapas distintas e bem definidas.
+
+6. Processos, as aplicações devem ser executadas como processos independentes, com a capacidade de escalar horizontalmente, fazendo com que os processos não compartilhem nem guarde nem um estado, toda essa comunicação seja feito por um acesso de fora.
+
+7. Portabilidade, o aplicativo deve ser capaz de ser executado em diferentes ambientes, como desenvolvimento, teste e produção, sem mudanças no código
+
+8. Concorrência, o aplicativo deve ser capaz de lidar com a concorrência, escalando horizontalmente conforme necessário para atender a demanda.
+
+9. Descarte, Os processos devem ser capazes de ser iniciados e encerrados de forma suave, sem perda de dados ou interrupção do serviço.
+
+10. Logs, os logs devem ser tratados como um fluxo de eventos que podem ser coletados e analisados, em vez de serem armazenados localmente.
+
+11. Administração, as tarefas administrativas devem ser tratadas como processos temporários e executadas em um ambiente separado.
+
+12. Segurança, a segurança deve ser considerada em todas as fases, desde o desenvolvimento até a produção, garantindo que as melhores práticas sejam seguidas.
