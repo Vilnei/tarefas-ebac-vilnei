@@ -1,0 +1,18 @@
+1. explicar a diferença entre contêineres e microsserviços.
+é possível subir microsserviços em maquina virtual?
+
+Contêineres são uma tecnologia para empacotar e executar aplicações, enquanto microsserviços são uma abordagem arquitetônica para construir aplicações distribuídas e escaláveis. Ambos podem coexistir e são frequentemente usados juntos, mas também é perfeitamente viável implantar microsserviços em máquinas virtuais.
+
+2. porque os desenvolvedores precisam fazer merge frequente de suas mudanças de código para que a integração contínua funcione adequadamente?
+
+O merge tem que ser feito constantemente para que não se perca código em "conflitos" de merge, como na integração continua partes de código são deplyados constantemente, se demorar para fazer esses merges vc pode facilmente ter um conflito de versões, como exemplo vc pode estar fazendo a modificação em uma parte que já n funciona mais como vc esta pensando. 
+
+3. porque e necessário ter uma cobertura abrangente de testes para que a pratica de entrega continua funcione?
+
+Para garantir o funcionamento de cada pare do código, tendo em vista que na entrega continua sempre esta chegando funções novas, se você não tiver uma abrangência de teste ampla sobre cada pedacinho do código, o mesmo vai quebrar com facilidade oque levaria a uma bola de neve de bugs pois outra entregas vao "embolar" mais e mais.
+
+4. qual diferença entre entrega contínua e implantação contínua?
+
+As maiores diferenças esta que na implantação o deploy e automático e com mais frequência com feedback instantâneo porem ela tem maior complexidade por ser automática e constante, tudo tem que esta rodando em perfeito alinhamento.
+
+Já a entrega continua tem deploy manual, com menor frequência e feedback mais demorado, pois o deploy não é na hora, e ela requer teste e validações mais frequentes porem não e tao complexa.  
