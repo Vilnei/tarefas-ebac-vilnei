@@ -1,0 +1,23 @@
+Requisites funcionais:
+
+API que permita o cadastro de animais que foram resgatados por um abrigo.
+
+Endpoints:
+- Cadastro de animais
+- Listagem de animais no abrigo que ainda não foram adotados, ordenados pela data de entrada no abrigo.
+- Listagem de animais no abrigo que ja foram adotados.
+
+Requisites não funcionais:
+
+Linguagem: Java
+Rodar o serviço  dentro de um container
+Base dados a ser utilizada: H2
+Autenticação e autorização não necessarias "AGORA"
+Larga escala: Não
+APIs precisam retornar o resultado no formato JSON
+Protocolo de comunicação vai ser o HTTP
+As APIs precisam ser no formato RESTful
+
+Dominio:
+
+Animais
