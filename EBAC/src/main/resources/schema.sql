@@ -12,3 +12,11 @@ CREATE TABLE animal (
    porte VARCHAR(255) NOT NULL,
    CONSTRAINT pk_animal PRIMARY KEY (id)
 );
+
+CREATE TABLE funcionario (
+   nome VARCHAR(255) NOT NULL,
+   cpf VARCHAR(255) NOT NULL,
+   admissao date NOT NULL,
+   demissao date,
+   CONSTRAINT pk_funcionario PRIMARY KEY (cpf)
+);

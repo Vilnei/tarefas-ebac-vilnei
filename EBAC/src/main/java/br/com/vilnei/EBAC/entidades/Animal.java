@@ -1,7 +1,6 @@
 package br.com.vilnei.EBAC.entidades;
 
 import jakarta.persistence.*;
-
 import java.sql.Date;
 
 @Entity
