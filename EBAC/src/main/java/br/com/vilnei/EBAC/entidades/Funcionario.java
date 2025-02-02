@@ -15,10 +15,10 @@ public class Funcionario {
     private String cpf;
 
     @Column(nullable = false)
-    private Date Admissao;
+    private Date admissao;
 
     @Column
-    private Date Demissao;
+    private Date demissao;
 
     public String getNome() {
         return nome;
@@ -37,19 +37,19 @@ public class Funcionario {
     }
 
     public Date getAdmissao() {
-        return Admissao;
+        return admissao;
     }
 
     public void setAdmissao(Date dataAdmissao) {
-        this.Admissao = dataAdmissao;
+        this.admissao = dataAdmissao;
     }
 
     public Date getDemissao() {
-        return Demissao;
+        return demissao;
     }
 
     public void setDemissao(Date dataDemissao) {
-        this.Demissao = dataDemissao;
+        this.demissao = dataDemissao;
     }
 
 }

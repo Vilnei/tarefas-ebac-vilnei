@@ -1,7 +1,6 @@
 package br.com.vilnei.EBAC.controladores;
 
 import br.com.vilnei.EBAC.entidades.Funcionario;
-import br.com.vilnei.EBAC.repositorios.AnimalRepositorio;
 import br.com.vilnei.EBAC.repositorios.FuncionarioRepositorio;
 import org.springframework.web.bind.annotation.*;
 
@@ -22,9 +21,14 @@ public class FuncionarioControlador {
         return repositorio.findAll();
     }
 
-    @GetMapping("/funcionario-recebedor")
-    private List<Funcionario> funcionarioRecebedor() {
-        return repositorio.funcionarioRecebedor();
-    }
+//    @GetMapping("/funcionario-ativo")
+//    private List<Funcionario> ativo() {
+//        return repositorio.ativo();
+//    }
+
+//    @GetMapping("/funcionario-desativo")
+//    private List<Funcionario> desativo() {
+//        return repositorio.desativo();
+//    }
 
 }
