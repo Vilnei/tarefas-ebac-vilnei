@@ -11,7 +11,7 @@ public class Consumidor {
     @RabbitHandler
     public void consumirMensagem( String mensagem) {
         System.out.println("--- Recebendo Mensagem ---");
-        System.out.println("--- " + mensagem + " ---");
+        System.out.println("--- " + mensagem);
         System.out.println("---Fim de Mensagem---");
     }
 }
