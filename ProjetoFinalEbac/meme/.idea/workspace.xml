@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="428f0452-d4b2-42ab-ae87-9a0a19d29c0a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/vilnei/MemeApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/vilnei/client/MemeClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/vilnei/controller/MemelandiaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/vilnei/entity/CategoryMeme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/vilnei/entity/Meme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/vilnei/entity/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/vilnei/repository/MemelandiaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/vilnei/service/MemelandiaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/vilnei/meme/MemeApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user/src/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user/src/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user/src/main/java/br/com/vilnei/UserApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user/src/main/java/br/com/vilnei/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user/src/main/java/br/com/vilnei/entity/Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user/src/main/java/br/com/vilnei/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user/src/main/java/br/com/vilnei/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user/src/main/resources/config/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user/src/main/resources/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user/src/test/java/br/com/vilnei/user/UserApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2v5DBiMn9AGSgRDrSW4j8tEkumH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Estudos/Programacao/Java/EBAC/ProjetoFinalEbac/meme"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Estudos\Programacao\Java\EBAC\ProjetoFinalEbac\meme" />
+      <recent name="D:\Estudos\Programacao\Java\EBAC\ProjetoFinalEbac\meme\src\main\java\br\com\vilnei" />
+      <recent name="D:\Estudos\Programacao\Java\EBAC\ProjetoFinalEbac\meme\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.vilnei.meme" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="428f0452-d4b2-42ab-ae87-9a0a19d29c0a" name="Changes" comment="" />
+      <created>1743425907684</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1743425907684</updated>
+    </task>
+    <servers />
+  </component>
+</project>
